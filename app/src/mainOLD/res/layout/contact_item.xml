@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_marginStart="10dp"
+    >
+
+
+
+           <androidx.cardview.widget.CardView
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:layout_marginStart="5dp"
+               android:layout_marginTop="5dp"
+               app:cardBackgroundColor="@color/transparent"
+               app:cardElevation="0dp"
+               >
+               <LinearLayout
+                   android:layout_width="wrap_content"
+                   android:layout_height="wrap_content"
+                   android:orientation="vertical"
+                   >
+
+                   <de.hdodenhof.circleimageview.CircleImageView
+                       android:id="@+id/contactpic"
+                       android:layout_width="60dp"
+                       android:layout_height="70dp"
+                       app:civ_border_overlay="true"
+
+                       />
+
+                   <TextView
+                       android:id="@+id/contactfullname"
+                       android:layout_width="wrap_content"
+                       android:layout_height="wrap_content"
+                       android:layout_marginTop="10dp"
+                       android:textSize="10sp"
+                       android:textColor="@color/black"
+                       tools:ignore="SmallSp"
+                       android:maxLength="12"
+                       android:ellipsize="end"
+                       android:maxLines="1"
+                       />
+
+
+               </LinearLayout>
+
+
+           </androidx.cardview.widget.CardView>
+
+
+
+
+
+</LinearLayout>

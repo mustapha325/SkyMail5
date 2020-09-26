@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/nav_inbox">
+
+    <fragment
+        android:id="@+id/nav_inbox"
+        android:name="com.example.skymail.ui.Inbox.InboxFragment"
+        android:label="@string/Inbox"
+        tools:layout="@layout/fragment_inbox" />
+
+    <fragment
+        android:id="@+id/nav_draft"
+        android:name="com.example.skymail.ui.Draft.DraftFragment"
+        android:label="@string/Draft"
+        tools:layout="@layout/fragment_draft" />
+
+    <fragment
+        android:id="@+id/nav_Trash"
+        android:name="com.example.skymail.ui.Trash.TrashFragment"
+        android:label="@string/Trash"
+        tools:layout="@layout/fragment_trash" />
+
+    <fragment
+        android:id="@+id/nav_send"
+        android:name="com.example.skymail.ui.send.SendFragment"
+        android:label="@string/Sent"
+        tools:layout="@layout/fragment_send" />
+
+    <fragment
+        android:id="@+id/nav_search"
+        android:name="com.example.skymail.research"
+        android:label="@string/search"
+        tools:layout="@layout/fragment_research" />
+
+
+</navigation>

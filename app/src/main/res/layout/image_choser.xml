@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.LinearLayoutCompat
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/backgroundcolor"
+    android:id="@+id/image_choser"
+    >
+
+    <Button
+        android:id="@+id/addimage"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:backgroundTint="@color/backgroundcolor"
+        android:text="@string/image_from_device"
+        android:background="@color/textcolor"
+
+        />
+    <Button
+        android:id="@+id/takepicture"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:backgroundTint="@color/backgroundcolor"
+        android:text="@string/camera_picture"
+        android:background="@color/textcolor"
+        />
+
+
+
+
+
+</androidx.appcompat.widget.LinearLayoutCompat>

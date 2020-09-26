@@ -1,0 +1,61 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.DayNight">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+        <item name="android:windowTranslucentStatus">true</item>
+        <item name="android:windowTranslucentNavigation">true</item>
+
+    </style>
+    <style name="SettingsThemeDark" parent="Theme.AppCompat.DayNight">
+        <!-- Customize your theme here. -->
+        <item name="android:textColor">@color/color_white</item>
+        <item name="android:colorAccent">@color/colorAccent</item>
+        <item name="android:colorPrimary">@color/colorPrimary</item>
+        <item name="android:colorControlActivated">@color/colorAccent</item>
+        <item name="android:textColorHighlight">#ffffff</item>
+        <item name="android:textColorAlertDialogListItem">#ffffff</item>
+        <item name="android:textColorTertiaryInverse">#ffffff</item>
+        <item name="android:textColorHintInverse">#ffffff</item>
+        <item name="android:textColorHighlightInverse">#ffffff</item>
+        <item name="android:textColorSecondaryNoDisable">#ffffff</item>
+        <item name="android:textColorPrimaryInverse">#ffffff</item>
+        <item name="android:textColorPrimary">#FFFFFFFF</item>
+        <item name="android:textColorTertiary">#DCDCDC</item>
+        <item name="android:textColorSecondary">#DCDCDC</item>
+        <item name="android:background">#303030</item>
+    </style>
+
+    <style name="PreferenceTheme" parent="@style/PreferenceThemeOverlay">
+        <item name="colorAccent">@color/colorPrimary</item>
+        <item name="android:textColorPrimary">@color/textcolor</item>
+        <item name="android:textColorSecondary">@color/textcolor</item>
+
+    </style>
+
+    <style name="AppTheme.noactionbar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+
+    <style name="AppTheme.noactionbar.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+        <item name="android:windowTranslucentStatus">true</item>
+        <item name="android:windowTranslucentNavigation">true</item>
+    </style>
+
+    <style name="AppTheme.noactionbar.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
+    <style name="AppTheme.noactionbar.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
+
+    <style name="NavigationTheme" parent="AppTheme">
+        <item name="android:textSize">13sp</item>
+    </style>
+
+
+</resources>

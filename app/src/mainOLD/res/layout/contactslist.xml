@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_weight="0.6"
+    android:orientation="vertical"
+    android:stateListAnimator="@null"
+    android:fitsSystemWindows="true"
+    tools:context=".MyContactLIst">
+
+
+    <com.google.android.material.appbar.AppBarLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:theme="@style/AppTheme.noactionbar.NoActionBar"
+        android:id="@+id/tollbarlayout"
+        >
+
+        <androidx.appcompat.widget.Toolbar
+            android:id="@+id/contactlisttoolbar"
+            android:layout_width="match_parent"
+            android:layout_height="?attr/actionBarSize"
+            android:background="@color/greencolor"
+            app:popupTheme="@style/AppTheme.noactionbar.NoActionBar" />
+
+
+    </com.google.android.material.appbar.AppBarLayout>
+
+
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:id="@+id/addfab"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_gravity="end|bottom"
+        android:layout_marginTop="470dp"
+        android:layout_marginEnd="30dp"
+        android:background="@drawable/joinbtn"
+        android:clickable="false"
+        android:elevation="2dp"
+        app:srcCompat="@drawable/ic_add" />
+
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/contactlistRV"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/tollbarlayout"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="0dp"
+        android:layout_marginTop="1dp" />
+
+
+</RelativeLayout>

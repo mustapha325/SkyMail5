@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:id="@+id/search"
+    android:layout_height="match_parent"
+    android:focusable="true"
+    android:focusableInTouchMode="true"
+    android:background="@color/backgroundcolor"
+
+    >
+
+    <EditText
+        android:id="@+id/search_bar"
+        android:layout_width="300dp"
+        android:layout_height="40dp"
+        android:layout_gravity="center"
+        android:background="@drawable/search_bar_designe"
+        android:padding="10dp"
+        android:layout_marginTop="20dp"
+        android:inputType="text"
+        android:imeOptions="actionDone"
+        android:drawableStart="@drawable/search_icon_focused"
+        app:iconifiedByDefault="true"
+        android:clickable="true"
+        android:focusable="true" />
+
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="57dp"
+        android:orientation="horizontal"
+        >
+
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_gravity="center"
+            android:id="@+id/ToContactList"
+            >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="10dp"
+                android:text="@string/contacts"
+                android:textColor="@color/textcolor"
+                android:textSize="15sp"
+                android:textStyle="bold"
+                >
+
+            </TextView>
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/ic_chevron_right"
+                />
+
+
+        </LinearLayout>
+
+        <ImageButton
+            android:id="@+id/addcontact"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/signs"
+            android:background="@drawable/circlarimagebutton"
+            android:translationX="220dp"
+            android:translationY="20dp"
+            android:elevation="5dp"
+            android:focusable="false"
+            android:clickable="false"
+            />
+
+
+
+
+    </LinearLayout>
+
+
+
+  <!-- <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/contactRV"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:layout_marginTop="5dp"
+        android:orientation="horizontal"
+        />-->
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/search_result"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        app:layoutManager="androidx.recyclerview.widget.LinearLayoutManager"
+        />
+
+
+
+
+
+
+
+
+
+
+
+</LinearLayout>

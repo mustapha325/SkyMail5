@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="color_btn">#43CEBB</color>
+    <color name="color_title">#F6F38C</color>
+    <color name="black">#1D2412</color>
+    <color name="color_white">#FFFFFF</color>
+    <color name="color_message_headers">#499c4a</color>
+    <color name="color_green">#0ab12f</color>
+    <color name="color_green_pressed">#0fd63b</color>
+    <color name="color_orange">#F60</color>
+    <color name="color_orange_pressed">#ffa366</color>
+    <color name="color_error">#f50c08</color>
+    <color name="gris">#77808A</color>
+    <color name="colorPrimary">#6E09A3</color>
+    <color name="colorPrimaryDark">#00574B</color>
+    <color name="colorAccent">#D81B60</color>
+    <color name="greencolor">#43CEBB</color>
+    <color name="lightwhite">#F5F5F3</color>
+    <color name="textcolor">#000000</color>
+    <color name="backgroundcolor">#FDF9F9</color>
+    <color name="blue">#F70089F1</color>
+    <color name="yellow">#B2FF59</color>
+    <color name="iconcolor">#303030</color>
+    <color name="transparent">#000089F1</color>
+    <color name="fullwhite">#2D574343</color>
+
+
+
+
+
+</resources>

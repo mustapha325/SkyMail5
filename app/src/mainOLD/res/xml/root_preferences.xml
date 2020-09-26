@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    >
+
+    <PreferenceCategory android:title="@string/title_activity_settings">
+    </PreferenceCategory>
+    <SwitchPreference
+        android:key="switch"
+        android:title="App Theme"
+        android:summary="Change Theme"
+        android:summaryOff="Light"
+        android:summaryOn="Dark"
+
+        />
+    <SwitchPreference
+        android:key="notifications"
+        android:title="Notification"
+        android:summary="enable-disable notifications"
+        android:summaryOff="Disable"
+        android:summaryOn="Enable"
+        />
+    <SeekBarPreference
+        android:key="exple"
+        android:title="Seekbar exple"
+        android:max="120"
+        android:summary="TODO TODO TODO "
+        />
+
+    <CheckBoxPreference
+        android:key="TODO"
+        android:title="TODO"
+        android:summary="TODO TODO TODO TODO TODO"
+        android:defaultValue="false"/>
+
+    <MultiSelectListPreference
+        android:entries="@array/options_entries"
+        android:entryValues="@array/options_values"
+        android:key="check"
+        android:title="check check" />
+
+    <ListPreference
+        android:key="settings_language_pick"
+        android:title="@string/settings_pick_language"
+        android:summary="@string/settings_language_description"
+        android:entries="@array/language_entries"
+        android:entryValues="@array/language_values"
+        />
+    <Preference
+        android:key="settings_delete"
+        android:title="@string/button_delete"
+        android:summary="@string/settings_delete_description"
+        />
+    <Preference
+        android:key="settings_about"
+        android:title="@string/about"
+        android:summary="TODO"
+        />
+
+</PreferenceScreen>

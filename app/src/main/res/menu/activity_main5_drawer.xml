@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view"
+    >
+    <group>
+        <item android:title="@string/app_name"></item>
+    </group>
+
+    <group android:checkableBehavior="single" android:id="@+id/top_menu">
+        <item
+            android:id="@+id/nav_inbox"
+            android:icon="@drawable/ic_inbox_black_24dp"
+            android:title="@string/Inbox"
+            android:textColor="@color/textcolor"
+            />
+
+        <item
+            android:id="@+id/nav_draft"
+            android:icon="@drawable/draft"
+            android:title="@string/Draft" />
+        <item
+            android:id="@+id/nav_send"
+            android:icon="@drawable/ic_menu_send"
+            android:title="@string/Sent" />
+        <item
+            android:id="@+id/nav_Trash"
+            android:icon="@drawable/delete"
+            android:title="@string/Trash" />
+    </group>
+</menu>

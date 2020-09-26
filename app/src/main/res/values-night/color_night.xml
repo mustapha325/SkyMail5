@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#6E09A3</color>
+    <color name="color_btn">@color/backgroundcolor</color>
+    <color name="colorPrimaryDark">#D81B60</color>
+    <color name="colorAccent">#D81B60</color>
+    <color name="greencolor">#43CEBB</color>
+    <color name="yellow">#B2FF59</color>
+    <color name="backgroundcolor">#303030</color>
+    <color name="textcolor">#FFFFFF</color>
+    <color name="iconcolor">@color/textcolor</color>
+    <color name="app_bar_color">#0E1010</color>
+    <color name="background_notification">#000000</color>
+    <color name="bottomnavigation">#0E1010</color>
+</resources>

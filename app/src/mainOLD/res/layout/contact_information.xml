@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:fitsSystemWindows="true"
+    tools:context=".ContactInformation">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="269dp"
+
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="121dp"
+            android:orientation="horizontal">
+
+            <de.hdodenhof.circleimageview.CircleImageView
+                android:id="@+id/icon_inf"
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                android:layout_marginStart="25dp"
+                android:layout_marginTop="40dp" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:layout_marginTop="20dp"
+                android:layout_marginStart="25dp"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/contactname"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:gravity="center|start"
+                    android:textColor="@color/black"
+                    android:textSize="15sp" />
+
+
+            </LinearLayout>
+
+
+        </LinearLayout>
+
+
+        <LinearLayout
+
+            android:layout_width="match_parent"
+            android:layout_height="75dp"
+            android:orientation="horizontal"
+            android:layout_marginStart="20dp"
+            >
+
+            <ImageView
+                android:layout_width="40dp"
+                android:layout_height="match_parent"
+                android:src="@drawable/email" />
+
+            <TextView
+                android:id="@+id/contactemail"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center|start"
+                android:clickable="true"
+                android:layout_marginStart="25dp"
+                android:textColor="@color/black"
+                android:focusable="true" />
+
+
+        </LinearLayout>
+
+        <LinearLayout
+
+            android:layout_width="match_parent"
+            android:layout_height="75dp"
+            android:orientation="horizontal"
+            android:clickable="true"
+            android:layout_marginStart="20dp"
+            android:focusable="true">
+            <ImageView
+                android:layout_width="40dp"
+                android:layout_height="match_parent"
+                android:src="@drawable/phone"
+                />
+            <TextView
+                android:id="@+id/contactphone"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:clickable="true"
+                android:textColor="@color/black"
+                android:layout_marginStart="25dp"
+                android:gravity="center|start"
+                android:focusable="true" />
+
+
+        </LinearLayout>
+
+
+
+
+
+    </LinearLayout>
+
+
+</LinearLayout>

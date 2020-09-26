@@ -1,0 +1,131 @@
+<resources>
+
+    <!--Settings !-->
+    <string name="settings_test" translatable="false">Option</string>
+    <string name="settings_test_description" translatable="false">Option descriptionLALALALALALALAL</string>
+    <string-array name="options_entries">
+        <item>Option 1</item>
+        <item>Option 12</item>
+        <item>Option 13</item>
+    </string-array>
+    <string-array name="options_values">
+        <item>Option 1 value</item>
+        <item>Option 12 value</item>
+        <item>Option 13 value</item>
+    </string-array>
+    <string-array name="language_entries">
+        <item>@string/arabic</item>
+        <item>@string/english</item>
+        <item>@string/french</item>
+    </string-array>
+    <string-array name="language_values">
+        <item>ar</item>
+        <item>en</item>
+        <item>fr</item>
+    </string-array>
+    <!--Translation !-->
+    <string name="app_name">SkyMail</string>
+    <string name="title_activity_settings">Paramétres</string>
+    <string name="title_activity_main5" translatable="false">main 5</string>
+    <string name="log_in">Se connecter</string>
+    <string name="Email_hint">Email</string>
+    <string name="Password_hint">Mot de passe</string>
+    <string name="sign_in">Créer un compte</string>
+    <string name="phone_number">Numéro de téléphone</string>
+    <string name="Gender">Genre</string>
+    <string name="Male">Masculin</string>
+    <string name="Female">Féminin</string>
+    <string name="full_name">Nom complet</string>
+    <string name="Birth_Day">Date de naissance</string>
+    <string name="to">à</string>
+    <string name="subject">Sujet</string>
+    <string name="subject_hint" translatable="false">sujet</string>
+    <string name="recipient_email">Email</string>
+    <string name="object">Objet</string>
+    <string name="object_hint" translatable="false">objet</string>
+    <string name="message_content">Message</string>
+    <string name="message_hint" translatable="false">Message</string>
+    <string name="contact_information">Informations contact</string>
+    <string name="name">Nom</string>
+    <string name="save">Sauvegarder</string>
+    <string name="contacts">Contacts</string>
+    <!-- Menu nav drawer -->
+    <string name="Inbox">Boite de réception</string>
+    <string name="Draft">Brouillons</string>
+    <string name="Sent">Messages envoyés</string>
+    <string name="Trash">Corbeille</string>
+    <string name="Share">Partager</string>
+    <string name="Tools">Outils</string>
+    <!-- itemsList -->
+    <string name="sendaction" translatable="false">sendaction</string>
+    <string name="confirmer">Confirmer</string>
+    <string name="settings_delete_message">Tous e-mails et autres contenus associés au compte vont être supprimées.\nVoulez vous vraiment supprimer votre compte ?</string>
+    <string name="button_delete">Supprimer mon compte</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="camera_picture">Prendre une photo avec la caméra de votre appareil</string>
+    <string name="image_from_device">Ajouter une image depuis votre appareil</string>
+    <string name="toast_passwordwrong">Mot de pass incorrect</string>
+    <string name="toast_user_notfound">Utilisateur non existant</string>
+    <string name="Message_actionbar_title" translatable="false">Message Composer</string>
+    <string name="toast_not_sent">Téléchargement en cours</string>
+    <string name="size_dialog_title">Ce Fichier dépasse la limite</string>
+    <string name="size_dialog_message">Les pièces joints sont limités a 5mb par message</string>
+    <string name="toast_network_error">Problème réseau</string>
+    <string name="notification_download_complete">Téléchargement fini</string>
+    <string name="notification_aborted">Annulé</string>
+    <string name="Settings_dialog_delete_title">Suppression de compte</string>
+    <string name="button_confirm">Confirmer</string>
+    <string name="settings_delete_successful">Supprimé avec succès !</string>
+    <string name="button_abort">Annuler</string>
+    <string name="settings_delete_aborted">Pas de changement</string>
+    <string name="about">à-propos</string>
+    <string name="image_picker">Choisissez une image</string>
+    <string name="no_file_manager">Aucun gestionnaire de fichiers approprié n\'a été trouvé.</string>
+    <string name="open_with">Ouvrir avec</string>
+    <string name="notification_download">Téléchargement en cours</string>
+    <string name="notification_upload">Téléversement en cours</string>
+    <string name="notification_upload_complete">Téléversement fini</string>
+    <string name="settings_pick_language">Langue</string>
+    <string name="arabic" translatable="false">" العربية"</string>
+    <string name="english" translatable="false">English</string>
+    <string name="french" translatable="false">Français</string>
+    <string name="settings_language_description">Nécessite un redémarrage de l\'application</string>
+    <string name="settings_delete_description">Supprimer le compte de façon permanente</string>
+    <string name="signing_in_load">Connexion, veuillez patienter ...</string>
+    <string name="No_notifications_tosync">Pas de nouvelles notifications...</string>
+    <string name="Editor">Editeur de message</string>
+    <string name="Welcome">Bienvenu</string>
+    <string name="Processing_in_load">Chargement, veuillez patienter...</string>
+    <string name="just_now">maintenant</string>
+    <string name="a_minute_ago">Il y\'a une minute</string>
+    <string name="minutes_ago">minutes</string>
+    <string name="hours_ago">heures</string>
+    <string name="yesterday">hier</string>
+    <string name="days_ago">jours</string>
+    <string name="an_hour_ago">1 heure</string>
+    <string name="time_arabic">depuis</string>
+    <string name="inscription_date">Date d\'inscription</string>
+    <string name="email_edit">Adresse Email :</string>
+    <string name="number_edit">Numéro de téléphone :</string>
+    <string name="birthday_edit">Date de naissance :</string>
+    <string name="gender_edit">Sexe :</string>
+    <string name="inscription_edit">Date d\'inscription :</string>
+    <string name="edit_user_info">Modifier les informations</string>
+    <string name="edit_profile_pic">Modifier la photo de profil</string>
+    <string name="password_edit">Mot de passe :</string>
+    <string name="current_password">Mot de passe</string>
+    <string name="new_password">Nouveau mot de passe</string>
+    <string name="edit_password">Mot de passe</string>
+    <string name="edit_displayname">Nom complet</string>
+    <string name="edit_phone">Numéro de téléphone</string>
+    <string name="imagepicker_multiselect_done">Terminé</string>
+    <string name="imagepicker_multiselect_not_enough_singular">Vous devez en sélectionner 1 de plus</string>
+    <string name="imagepicker_multiselect_enough_singular">Vous avez sélectionné 1 image</string>
+    <string name="imagepicker_multiselect_enough_plural">Vous avez sélectionné %d images</string>
+    <string name="imagepicker_multiselect_overselect">Vous ne pouvez pas sélectionner plus de %d images</string>
+    <string name="imagepicker_no_image_text_view">Il n\'y a pas d\'image sur votre appareil.</string>
+    <string name="imagepicker_multiselect_not_enough_plural">Vous devez sélectionner %d images supplémentaires</string>
+    <string name="synchro_message">Synchronization des messages</string>
+
+
+</resources>
